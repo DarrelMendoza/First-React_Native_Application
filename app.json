@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DoneWithIt",
+    "slug": "donewithit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/darrelicon.png",
+
+    "splash": {
+      "image": "./assets/splashtry.jpg",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "This is my First React Native Mobile Application!"
+  }
+}
